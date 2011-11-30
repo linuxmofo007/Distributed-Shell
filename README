@@ -1,0 +1,30 @@
+Purpose:
+
+The purpose of this script is to easily have a way to securely
+run commands on large number of remote *nix systems.
+
+Requirements:
+
+- SSH
+- Ideally pub/private keys 
+- IP's or hostnames
+
+Usage:
+
+./distssh.sh <hostgroup> '<remote command(s)>'
+
+Notes: 
+
+- SSH keys are the best way to go here. Otherwise you will be typing in 
+passwords in excess
+
+- There is a bit of funkiness with quotes inside of quotes, you have been warned.
+
+Support / Help / Patches:
+
+I'm very pleased to accept any patches / fixes / bugs. Drop me a 
+note at support@ionull.com.
+
+Versions:
+
+0.1 - Remote / in mass SSH commands
